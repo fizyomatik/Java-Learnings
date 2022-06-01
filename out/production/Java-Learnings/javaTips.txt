@@ -1,0 +1,8 @@
+The line with method name, arguments and with all keywords is known as "Method signature" and the rest of it inside the brackets. this is the method body.
+The lines with 'void' are not returning anything. They just print something. To return we need to use "String, int, boolen, etc." 
+public: is known as a public modifier. Basically is for to manage visibility of methods and variables.
+if we change Method Signature public to private then we will not be able to use  this M.S. in another class. Because it is not going to be visible.
+main: name of method
+static: Once you removed static from the Method Signature, that means you cannot make a static reference to the non-static method. You cannot invoke this method from another class. It is even not belong to its own class. We can no longer invoke it directly.
+
+
